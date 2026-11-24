@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfólio de desenvolvimento web, projetos e contato para orçamentos."
+    />
+    <title>Gustavo | Desenvolvedor</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="#inicio">&lt;/&gt; portfolio<span>.dev</span></a>
+      <button id="menuBtn" aria-label="Abrir menu">☰</button>
+      <nav id="nav">
+        <a href="#sobre">Sobre</a><a href="#projetos">Projetos</a
+        ><a href="#tecnologias">Tecnologias</a
+        ><a class="navcta" href="#contato">Contato ↗</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div>
+          <div class="status">
+            <i></i> Disponível para projetos e oportunidades
+          </div>
+          <small class="kicker">OLÁ, EU SOU</small>
+          <h1>
+            Gustavo<span>.</span><br /><em>Desenvolvedor</em><br />Web em
+            formação.
+          </h1>
+          <p>
+            Transformo ideias em experiências digitais funcionais, modernas e
+            responsivas. Conheça alguns dos projetos que venho construindo.
+          </p>
+          <a class="btn primary" href="#projetos">Ver meus projetos ↓</a>
+          <a class="btn" href="#contato">Solicitar orçamento ↗</a>
+          <div class="social">
+            <a href="https://github.com/Gustavo-De-Sousa">GitHub ↗</a
+            ><a href="www.linkedin.com/in/gustavo-de-sousa-0521a119b">LinkedIn ↗</a>
+          </div>
+        </div>
+        <div class="code">
+          <div class="bar"><b>● ● ●</b><span>developer.js</span></div>
+          <pre><i>const</i> developer = {
+  name: <strong>'Gustavo'</strong>,
+  focus: <strong>'Web Development'</strong>,
+  skills: [
+    <mark>'Python'</mark>, <mark>'Flask'</mark>,
+    <mark>'HTML'</mark>, <mark>'CSS'</mark>, <mark>'JS'</mark>
+  ],
+  building: <i>true</i>
+}; <span class="cursor">▍</span></pre>
+          <div class="codefoot">● Sempre aprendendo e construindo</div>
+        </div>
+      </section>
+      <section class="section" id="sobre">
+        <small class="kicker">01 / SOBRE MIM</small>
+        <div class="twocol">
+          <h2>Curiosidade que vira<br /><span>código.</span></h2>
+          <div>
+            <p>
+              Sou um desenvolvedor em formação, interessado em criar soluções
+              digitais que facilitem o dia a dia de pessoas e negócios. Gosto de
+              entender como as coisas funcionam, resolver problemas e
+              transformar ideias em projetos reais.
+            </p>
+            <p>
+              Estou desenvolvendo minhas habilidades em programação e
+              desenvolvimento web, sempre buscando aprender, praticar e evoluir
+              a cada projeto.
+            </p>
+            <a class="under" href="#contato"
+              >Tem uma ideia? Vamos conversar ↗</a
+            >
+          </div>
+        </div>
+        <div class="stats">
+          <div><b>01+</b><small>Projetos em construção</small></div>
+          <div><b>05+</b><small>Tecnologias estudadas</small></div>
+          <div><b>∞</b><small>Vontade de aprender</small></div>
+        </div>
+      </section>
+      <section class="section" id="projetos">
+        <small class="kicker">02 / PORTFÓLIO</small>
+        <div class="heading">
+          <div>
+            <h2>Projetos em <span>destaque.</span></h2>
+            <p>Projetos pessoais e soluções que estou desenvolvendo.</p>
+          </div>
+          <small id="count"></small>
+        </div>
+        <div class="projects" id="projects"></div>
+        <p class="center">
+          Mais códigos no
+          <a href="https://github.com/SEU_USUARIO">meu GitHub ↗</a>
+        </p>
+      </section>
+      <section class="section" id="tecnologias">
+        <small class="kicker">03 / FERRAMENTAS</small>
+        <div class="twocol techgrid">
+          <div>
+            <h2>Tecnologias que<br /><span>estou explorando.</span></h2>
+            <p>
+              Ferramentas que utilizo nos estudos e projetos. Esta lista evolui
+              junto com minha jornada.
+            </p>
+          </div>
+          <div class="techlist">
+            <div>
+              <b>Py</b
+              ><span
+                ><strong>Python</strong
+                ><small>Lógica, automações e backend</small></span
+              >
+            </div>
+            <div>
+              <b>Fl</b
+              ><span
+                ><strong>Flask</strong
+                ><small>Aplicações web e APIs</small></span
+              >
+            </div>
+            <div>
+              <b>H</b
+              ><span
+                ><strong>HTML & CSS</strong
+                ><small>Estrutura e interfaces responsivas</small></span
+              >
+            </div>
+            <div>
+              <b>JS</b
+              ><span
+                ><strong>JavaScript</strong
+                ><small>Interatividade no navegador</small></span
+              >
+            </div>
+            <div>
+              <b>DB</b
+              ><span
+                ><strong>SQLite / SQL</strong
+                ><small>Persistência e organização de dados</small></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="contato">
+        <small class="kicker">04 / CONTATO</small>
+        <div class="twocol">
+          <div>
+            <small class="kicker">VAMOS TIRAR SUA IDEIA DO PAPEL?</small>
+            <h2>Seu próximo projeto começa com uma <span>conversa.</span></h2>
+            <p>
+              Precisa de um site, sistema ou quer conversar sobre uma ideia?
+              Entre em contato para solicitar um orçamento sem compromisso.
+            </p>
+          </div>
+          <div class="contactlinks">
+            <a class="btn primary" id="whatsapp" href="#"
+              >Conversar pelo WhatsApp ↗</a
+            ><a class="btn" id="email" href="#">Enviar um e-mail ↗</a
+            ><small>Responderei assim que possível.</small>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="logo" href="#inicio">&lt;/&gt; portfolio<span>.dev</span></a
+      ><small>Feito com dedicação e código.</small
+      ><a href="#inicio">Voltar ao topo ↑</a
+      ><small>© <b id="year"></b> Gustavo de Sousa</small>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
